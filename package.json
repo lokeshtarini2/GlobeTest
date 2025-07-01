@@ -1,0 +1,46 @@
+{
+  "name": "globex-world",
+  "private": true,
+  "version": "5.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@hello-pangea/dnd": "^18.0.1",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@mui/system": "^7.0.2",
+    "@mui/x-charts": "^7.29.1",
+    "@mui/x-data-grid": "^7.28.3",
+    "@mui/x-data-grid-pro": "^7.29.1",
+    "@mui/x-tree-view": "^7.29.1",
+    "@react-spring/web": "^9.7.5",
+    "@silevis/reactgrid": "^4.1.17",
+    "js-cookie": "^3.0.5",
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^3.11.1",
+    "mui-color-input": "^7.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-leaflet": "^4.2.1",
+    "react-router": "^7.5.2",
+    "react-world-flags": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/react-table": "^7.7.20",
+    "@types/react-world-flags": "^1.6.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3"
+  }
+}
