@@ -1,7 +1,10 @@
+
 import Dashboard from './dashboard/Dashboard';
 
 export default function App() {
   return (
-    <Dashboard />
+    <div className="min-h-screen bg-gray-50">
+      <Dashboard />
+    </div>
   );
 }
