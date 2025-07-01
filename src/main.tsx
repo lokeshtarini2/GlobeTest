@@ -1,5 +1,4 @@
 import { CssBaseline } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -12,14 +11,14 @@ import Home from './home/Home';
 import Login from './login/Login';
 import Profile from './profile/Profile';
 import Report from './report/Report';
-import theme from './theme';
+import AppTheme from './shared-theme/AppTheme';
 import Workspace from './workspace/Workspace';
 import AccountNew from './account-details/AccountNew';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    <AppTheme>
       <CssBaseline />
       <BrowserRouter>
         <Routes>
@@ -36,6 +35,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="/applications/new" element={<AccountNew />} />
         </Routes>
       </BrowserRouter>
-    </ThemeProvider>
+    </AppTheme>
   </React.StrictMode>,
 );
